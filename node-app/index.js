@@ -5,7 +5,7 @@ import { Registry, collectDefaultMetrics, Histogram } from 'prom-client';
 const register = new Registry()
 
 register.setDefaultLabels({
-  app: 'example-nodejs-app'
+  app: 'node-app'
 })
 
 collectDefaultMetrics({ register })

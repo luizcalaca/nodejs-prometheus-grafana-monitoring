@@ -36,7 +36,7 @@ services:
       - monitoring
   example-nodejs-app:
     build:
-      context: app
+      context: node-app
     ports:
       - 8080:8080
     expose:
